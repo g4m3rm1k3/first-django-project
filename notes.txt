@@ -1,0 +1,12 @@
+$django-admin startproject <projectname> .
+./manage.py startapp <appname>
+settings.py in <projectname> register <appname> INSTALLED_APPS
+./manage.py runserver -> to run the server
+./manage.py migrate
+
+
+**Create a requirements file
+pip freeze > requirements.txt
+
+** install from a requirements file
+pip install -r requirements.txt
